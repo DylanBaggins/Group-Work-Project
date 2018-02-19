@@ -1,1 +1,1 @@
-GroupWorkGame
+Group Work Game
