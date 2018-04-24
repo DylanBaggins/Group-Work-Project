@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212492024473828458}
   - component: {fileID: 114659035805512054}
   - component: {fileID: 60514900757054360}
+  - component: {fileID: 114918357408459998}
+  - component: {fileID: 114894825329346156}
   m_Layer: 0
   m_Name: Hostile
   m_TagString: Untagged
@@ -122,7 +124,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HostileBullet: {fileID: 1000013210659724, guid: 7d4aef7c80c46c14c8d62463ec515914,
     type: 2}
-  offset: {x: 5, y: 0, z: 0}
 --- !u!114 &114659035805512054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -137,6 +138,28 @@ MonoBehaviour:
   maxHealth: 100
   curHealth: 100
   scoreValue: 10
+--- !u!114 &114894825329346156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1466230757836306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc4b2efab31d484da1cfc257d8552bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114918357408459998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1466230757836306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc4b2efab31d484da1cfc257d8552bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212492024473828458
 SpriteRenderer:
   m_ObjectHideFlags: 1
